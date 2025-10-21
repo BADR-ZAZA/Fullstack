@@ -1,0 +1,6 @@
+- Si plusieurs fichiers définissent les mêmes noms, il y a un conflit : le dernier chargé écrase les précédents.
+
+- Dans un projet réel, cela cause des bugs et rend le code difficile à maintenir.
+
+- Node.js résout ce problème grâce à son système de modules : chaque fichier a son propre espace isolé, 
+et on partage le code via require / module.exports.
