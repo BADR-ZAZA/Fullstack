@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caisse Enregistreuse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💵 Caisse Enregistreuse</h1>
+
+  <h3>Articles disponibles</h3>
+  <button onclick="addItem('Phone')">Ajouter Phone (300)</button>
+  <button onclick="addItem('Smart TV')">Ajouter Smart TV (220)</button>
+  <button onclick="addItem('Gaming Console')">Ajouter Gaming Console (150)</button>
+
+  <h3>Ajouter un article personnalisé</h3>
+  <input type="text" id="customItem" placeholder="Nom de l'article">
+  <button onclick="addCustomItem()">Ajouter</button>
+
+  <h3>Paiement</h3>
+  <input type="number" id="payment" placeholder="Montant à payer">
+  <button onclick="pay()">Payer</button>
+
+  <h3>Panier actuel :</h3>
+  <ul id="cart"></ul>
+
+  <div id="console"></div>
+
+  <script src="Caisse.js"></script>
+</body>
+</html>
