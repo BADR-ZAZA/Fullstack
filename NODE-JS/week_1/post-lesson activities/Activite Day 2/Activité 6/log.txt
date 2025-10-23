@@ -1,6 +1,0 @@
-Requete recue : /
-Requete recue : /favicon.ico
-Requete recue : /app
-Requete recue : /favicon.ico
-Requete recue : /dir.
-Requete recue : /favicon.ico
